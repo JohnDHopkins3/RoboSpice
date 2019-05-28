@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-                spawnDust=true;
+            spawnDust=true;
         }
 
         if (Input.GetButtonDown("Jump") && extraJumps>0)
