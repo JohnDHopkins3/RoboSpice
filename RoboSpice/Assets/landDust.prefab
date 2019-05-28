@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2432679620086078974}
   - component: {fileID: 8472638872692601617}
   - component: {fileID: -7230539058931569259}
+  - component: {fileID: 9073677908257791874}
   m_Layer: 0
   m_Name: landDust
   m_TagString: Untagged
@@ -4765,3 +4766,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28df560020e67b34fa1d55efa00d5950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9073677908257791874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7025635295022936247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb1ab49e09a224faa26863036046f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Particlecolor:
+    serializedVersion: 2
+    rgba: 8553090
