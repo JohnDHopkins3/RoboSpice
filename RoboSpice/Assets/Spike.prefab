@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3421673997709348520}
   m_Layer: 0
   m_Name: Spike
-  m_TagString: Untagged
+  m_TagString: Danger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,8 +93,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a355f1fd6ea6dd2428f67aceb2a8f8c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  Spawn: {fileID: 0}
 --- !u!60 &3421673997709348520
 PolygonCollider2D:
   m_ObjectHideFlags: 0

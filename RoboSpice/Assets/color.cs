@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class color : MonoBehaviour
 {
-    public Color32 Particlecolor=new Color32();
-    ParticleSystem particle;
+    ParticleSystem ps;
+    ParticleSystem.MainModule ma;
+    public Color Particlecolor;
+    public GameObject Platform;
+
     void Start()
     {
-        particle.startColor=Particlecolor;
-        
-    }
+        Particlecolor = Platform.GetComponent<Color>();
+        ps = GetComponent<ParticleSystem>();
+        ma = ps.main;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ma.startColor = Particlecolor;
     }
 }
