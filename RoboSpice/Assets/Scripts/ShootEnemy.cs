@@ -29,14 +29,7 @@ public class ShootEnemy : MonoBehaviour
 
         if (timeBtwShots<=0)
         {
-            if (transform.rotation.z >-180&& transform.rotation.z <0)
-            {
-                Instantiate(projectTile, shootPoint.position, (transform.rotation * Quaternion.Euler(0, 0, -50)));
-            }
-            else
-            {
-                Instantiate(projectTile, shootPoint.position, (transform.rotation * Quaternion.Euler(0, 0, 50)));
-            }
+            Instantiate(projectTile, shootPoint.position,transform.rotation);
             timeBtwShots = startTimeBtwShots;
         }
         else
