@@ -252,7 +252,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1995963426648101269}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5327aa7cdaa137e4ea38d0ba322546d1, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 1995963427178303535}
   - component: {fileID: 1995963427178303532}
   - component: {fileID: 1995963427178303533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1995963427178303699}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5327aa7cdaa137e4ea38d0ba322546d1, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0

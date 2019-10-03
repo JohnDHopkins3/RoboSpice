@@ -120,7 +120,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  extraJumpsAmount: 1
+  extraJumpsAmount: 10
   dustEffect: {fileID: 7025635295022936247, guid: a269a9498ae63ac42973354eb9f4909d,
     type: 3}
 --- !u!50 &5186873325872135219
